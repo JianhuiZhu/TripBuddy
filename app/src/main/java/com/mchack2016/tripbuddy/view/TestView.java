@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 
 import com.mchack2016.tripbuddy.R;
 import com.mchack2016.tripbuddy.util.AbstractFragment;
+import com.mchack2016.tripbuddy.util.FragmenUtil;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -21,12 +22,16 @@ public class TestView extends AbstractFragment{
     public void click(View view){
         switch (view.getId()){
             case R.id.login_button:
+                FragmenUtil.switchToFragment(getActivity(),new LoginView());
                 break;
             case R.id.register_button:
+                FragmenUtil.switchToFragment(getActivity(),new RegisterView());
                 break;
             case R.id.sight_button:
+                FragmenUtil.switchToFragment(getActivity(),new SightView());
                 break;
             case R.id.result_button:
+                FragmenUtil.switchToFragment(getActivity(),new ResultView());
                 break;
         }
     }
