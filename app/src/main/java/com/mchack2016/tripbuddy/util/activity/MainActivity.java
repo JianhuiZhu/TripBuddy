@@ -1,15 +1,11 @@
-package com.mchack2016.tripbuddy.util.util.activity;
+package com.mchack2016.tripbuddy.util.activity;
 
 import android.os.Bundle;
 
-import com.crashlytics.android.Crashlytics;
-import com.crashlytics.android.ndk.CrashlyticsNdk;
-import com.firebase.client.Firebase;
-import com.jianhui_zhu.openuseragent.R;
-import com.jianhui_zhu.openuseragent.util.FragmenUtil;
-import com.jianhui_zhu.openuseragent.view.TestView;
+import com.mchack2016.tripbuddy.R;
+import com.mchack2016.tripbuddy.util.FragmenUtil;
+import com.mchack2016.tripbuddy.view.TestView;
 
-import io.fabric.sdk.android.Fabric;
 
 /**
  * Created by jianhuizhu on 2016-01-27
